@@ -1,0 +1,179 @@
+
+.class-details {
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .section1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .class-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .class-name {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  .class-description {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .add-post-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .add-post-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+
+  .post-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  
+.post-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  .post-card h3 {
+    font-size: 1.2rem;
+    color:black;
+    font-weight:bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    color: black;
+    font-size: 1rem;
+  }
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .popup-content h3 {
+    margin-bottom: 15px;
+  }
+  
+  .popup-content input,
+  .popup-content textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .popup-buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+  }
+
+  /* notes in format of pdf ,excel ,word*/
+
+  /* Center the upload form */
+.upload-container {
+  background-color: black;
+  color: white;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.3);
+}
+
+/* Title Styling */
+.title {
+  color: aqua;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+.input-field, .file-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid aqua;
+  background-color: black;
+  color: white;
+}
+
+/* Button Styling */
+.upload-btn {
+  background-color: aqua;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.upload-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Download Section */
+.download-section {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* Download Link */
+.download-link {
+  color: aqua;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
